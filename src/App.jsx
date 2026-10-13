@@ -1,14 +1,11 @@
 import { useState } from "react";
-import "./App.css";
+import UsersLoader from "./components/UsersLoader";
+import "./App.sass";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <section id="center"></section>
-    </>
-  );
+  return <UsersLoader></UsersLoader>;
 }
 
 export default App;
